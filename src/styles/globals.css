@@ -1,0 +1,35 @@
+@import url('https://fonts.googleapis.com/css2?family=Golos+Text:wght@400;500;600;700;800;900&family=Inter:wght@100;200;300;400;500;600;700;800&display=swap');
+
+:root {
+  --color-background-body: #111111;
+  --color-bg-button: #ffffff;
+  --color-background-body-black: #000000;
+  --color-text-secondary: #7A7A7A;
+  --color-background-component-black: hsl(0, 0%, 0%);
+  --color-bg-icons: #111111;
+  --color-bg-icons-white: #ffffff;
+  --color-text: #cccccc;
+  --color-text-white: #ffffff;
+  --color-text-black: #000000;
+  --color-border: #262626;
+  --color-border-hover: #69e57a;
+  --color-gradient: #000000;
+  --color-bg-card: #121212;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  width: 100%;
+  background-color: var(--color-background-body-black);
+  padding: 0;
+  margin: 0;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.active {
+  color: rgb(60, 60, 60) !important;
+  transition: all 0.5s;
+}
